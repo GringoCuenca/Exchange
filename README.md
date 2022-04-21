@@ -4,7 +4,6 @@
     BuildNumbers link:
     https://docs.microsoft.com/en-us/exchange/new-features/build-numbers-and-release-dates?view=exchserver-2019
  
-USE
     Get-ExchangeServer | Get-ExchangeVersion
         Or
     Get-ExchangeVersion -ComputerName ExchSrv01, ExchSrv02
